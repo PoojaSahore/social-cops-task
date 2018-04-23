@@ -1,0 +1,95 @@
+
+
+h1 {
+  font-family: 'Gamja Flower', cursive;
+}
+
+/* .App {
+  text-align: center;
+} */
+
+.App-header {
+  background-color: rgb(26, 24, 24);
+  height: 250px;
+  padding: 10px;
+  color: white;
+}
+
+.App-title {
+  font-size: 4.5em;
+  color: #5B86E5;
+  font-family: 'Gugi', cursive;
+}
+
+/* .App-intro {
+  font-size: large;
+} */
+
+.App-title {
+  font-size: 4.5em;
+  color: #5B86E5;
+  font-family: 'Gugi', cursive;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+img {
+  height: 130px;
+}
+
+.titles {
+  color: #efefef;
+  margin-top: 50px;
+  padding: 10px;
+  font-size: 3.5em;
+}
+
+p {
+  font-size: 1.5em;
+  margin-top: 50px;
+  border: 1px solid #5B86E5;
+  background-color: #5B86E5;
+  border-radius: 20px;
+}
+
+hr {
+  width: 90%;
+}
+
+@media (min-width: 1200px) {
+  .container {
+      max-width: 900px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+      max-width: 800px;
+  }
+}
+
+@media only screen and (max-width: 871px) {
+  .App-header {
+    height: 340px;
+  }
+}
+
+@media only screen and (max-width: 588px) {
+  .App-title {
+    font-size: 2.5em;
+  }
+  .App-header {
+    height: 220px;
+  }
+} 
+
+@media only screen and (max-width: 500px) {
+  .App-title {
+    font-size: 2.5em;
+  }
+  .App-header {
+    height: 270px;
+  }
+} 
